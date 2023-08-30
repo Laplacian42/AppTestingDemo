@@ -10,8 +10,6 @@ on:
   pull_request:
     branches: [ main ]
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
-  schedule:
-    - cron:  '55/61 20/25 * * *' # schedule a daily-ish build
 
 jobs:
   # This workflow contains a single job called "build"
